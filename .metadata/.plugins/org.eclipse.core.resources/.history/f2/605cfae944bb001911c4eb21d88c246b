@@ -1,0 +1,7 @@
+package io.Saba.springBootStarter.courses;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface TopicRepository extends CrudRepository<Course, String> {
+
+}
